@@ -21,10 +21,11 @@ Click the video below to see Scene Framer in action.
 ## What This Node Does
 
 Normally, if you want several cropped versions of the same image in ComfyUI, you need to:
-
-- create multiple crop nodes  
-- duplicate parts of your workflow  
-- manage many nodes for simple shot framing  
+Instead of manually cropping images outside ComfyUI or building several crop nodes, Scene Framer lets you visually frame shots directly on the image and outputs them individually.
+Each shot can then be connected to different parts of your pipeline.
+Scene Framer keeps everything inside one node.
+You can quickly frame several shots from the same image and send them to different parts of your ComfyUI workflow.
+This keeps the graph cleaner and easier to manage, especially when working with multiple shots with background consistancy.
 
 Scene Framer simplifies this.
 
